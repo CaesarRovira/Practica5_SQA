@@ -97,7 +97,7 @@ sleep(2)
 
 
 # PARTE 2 (Reynaldo)
-
+# Adición de items a carrito de compras
 #1er Item
 driver.find_element(By.XPATH, '//*[@id="siminia-main-page"]/div/div/div[2]/div/div/div[2]/div/div/div[1]/div[2]/a/div[2]/span')
 driver.click()
@@ -163,6 +163,8 @@ driver.click()
 
 
 # PARTE 3 (Migue)
+# Realizando compra de items
+# y llenado de formularios de compra
 driver.find_element(By.CSS_SELECTOR, ".cartTrigger-root-3ZH svg").click()
 sleep(2)
 driver.find_element(By.CSS_SELECTOR, ".cartTrigger-root-3ZH > .header-item-text-1Mj").click()
